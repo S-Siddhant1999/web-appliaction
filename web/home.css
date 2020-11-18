@@ -1,0 +1,337 @@
+/* CSS Document */
+
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+.main
+{
+    height:1500px;
+}
+.container
+{
+ width:auto;
+}
+.wrapper
+{
+    width:1300px;
+    margin:auto;
+}
+.dark
+{
+   background-color:#0000CC;
+    color:white;
+}
+.light
+{
+ background-color:#000000;
+
+}
+
+#top_left
+{
+
+    text-align:left;
+    display:inline-block;
+    
+}
+#top_right
+{
+    float:right;
+}
+#top_div
+{
+    height:30px;
+    line-height: 20px;
+}
+.sec_div
+{
+height:50px;
+line-height: 20px;
+
+}
+#third_div
+{
+
+width:1366px;
+height: 600px;
+margin-left:0px;
+background-image:url(images/aaaa.png);
+background-size: 100% 100%;
+background-position:center;
+}
+#se{
+    width:1400px;
+margin-left:0px;
+background-size: 100% 100%;
+background-position:center;
+}
+.mains
+{
+height:500px;
+}
+.transbox
+{
+background:rgba(0,0,12,0.3);
+width:100%;
+height:90px;
+
+float:top;
+margin:0;
+color:#fff;
+padding:0px;
+
+}
+#menu ul{
+
+}
+#menu ul li
+{
+ top:20px; 
+  width:156px;
+  display: inline-block;
+   height:35px;
+    line-height: 35px;
+    text-align: center;
+  position:relative;
+}
+#menu ul li a{
+    color:white;
+   text-decoration: none;
+    
+
+}
+#menu ul li a:hover
+{
+    
+    color:#3498db;
+}
+#menu ul ul{
+    position: absolute;
+    display: none;
+}
+#menu ul li:hover > ul
+{
+}
+#logo_left
+{
+float:right;
+margin-right:20px;
+height:50px;
+display:inline-block;
+    
+}
+.ssr{
+    top:1800px;
+    margin-left: -190px;
+    
+}
+
+#logo_right
+{
+   
+    float: right;
+    top: 60px;
+    margin-right:80px;
+    line-height: 45px;
+    text-align: center;
+}
+.button
+{
+    margin-top: 50px;
+border-radius:9px;
+font-family:'Oswald',sans-serif;
+color:#ffffff;
+font-size:10px;
+padding:5px 10px;
+border:solid #036A81 1px;
+text-transform:uppercase;
+text-decoration:none;
+}
+.button:hover{
+color:#b0281a;
+border:solid #b0281a 3px;
+}
+.serch{
+    padding-bottom: 5px 10px;
+}
+.rebtn
+{
+    border:1px solid #3498db;
+    background:blue;
+    padding: 5px 16px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "montserrat";
+    cursor:pointer;
+    margin: 10px;
+}
+#length
+{
+margin-left:10px;
+	alignment-adjust:left;
+	text-align: center;
+	position: absolute;
+	top: 60px;
+	float:right;
+	button:fixed;
+	left: 450px;
+	width: 900px;
+	border-right-width:thin;
+        
+    
+}  
+#length select
+{
+  
+    padding: 10px;
+    width: 250px;
+    height:35px;
+    border:1 px solid #0000CC;
+    font-size: 14px;
+	background-attachment:scroll;
+   
+}
+.btn
+{
+border-radius:8px;
+font-family:'Oswald',sans-serif;
+color:#666666;
+font-size:20px;
+padding:6px 12px;
+border:solid #666666 2px;
+text-transform:uppercase;
+text-decoration:none;
+
+}
+#image
+{
+float:left;
+margin-top:0px;
+margin-left:30px;
+}
+.btn:hover{
+color:#fff;
+border:solid #fff 3px;
+}
+h1{
+    margin-left:280px;
+
+	text-align: center;
+	position: absolute;
+	top: 300px;
+	float:left;
+        font-size: 50px;
+        color:#0000cc;
+
+	left: 100px;
+	width: 544px;
+}
+h3{
+    margin-left:280px;
+
+	text-align: center;
+	position: absolute;
+	top: 370px;
+	float:left;
+        font-size: 35px;
+        color:#000000;
+
+	left: 100px;
+	width: 544px;
+    
+}
+h4{
+    margin-left:280px;
+
+	text-align: center;
+	position: absolute;
+	top: 270px;
+	float:left;
+        font-size: 35px;
+        color:#b0281a;
+
+	left: 100px;
+	width: 744px;
+    
+}
+h6{
+    margin-left:280px;
+
+	text-align: center;
+	position: absolute;
+	top: 270px;
+	float:left;
+        font-size: 35px;
+        color:#b0281a;
+
+	left: 100px;
+	width: 744px;
+    
+}
+ table
+{
+    margin-top: 90px;
+    margin-left: 100px;
+    width:80%;
+    border:solid 1px #ccc;
+    font-family: arial;
+    color:#333;
+   
+}
+table caption{
+    font-size: 40px;
+    margin-top: 150px;
+    color: scrollbar;
+}
+table thead tr th,table tbody tr td {
+    padding:5px 10px;
+    text-align: center;
+    border-bottom: sold 1px #ccc;
+    border-right: solid 1px #ccc;
+}
+table thead tr th
+{
+    background:darkkhaki;
+    font-weight: bold;
+}
+tbody tr td {
+    color:#000000;
+    padding: 5px 10px;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    border-right: solid 1px #ccc; 
+}
+tr:nth-child(even){
+    background-color: #ccc;
+}
+tr:nth-child(odd){
+    background-color:#ddd;
+}
+h7
+{
+   
+    margin-left: 250px;
+    font-size: 35px;
+    color:skyblue;
+}
+#CB{
+    margin-top: -190px;
+    margin-left: 390px;
+} 
+.ht{
+   margin-top: 190px;
+   
+     margin-left: -150px;
+    font-size: 35px;
+    color:skyblue;
+}
+#logo{
+    float:right;
+margin-right:20px;
+margin-top: 60px;
+height:80px;
+display:inline-block;
+    
+}
